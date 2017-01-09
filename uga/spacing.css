@@ -1,0 +1,21 @@
+label{
+    margin-left: 1.5ch;
+}
+.answer
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1ch;
+}
+.refresh
+{
+    text-align: center;
+}
+a{
+    padding-top:10px;
+}
+.selectBox
+{
+    color: black;
+}

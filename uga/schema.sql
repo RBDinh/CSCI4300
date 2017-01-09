@@ -1,0 +1,14 @@
+CREATE TABLE users (
+ email CHAR(30) NOT NULL,
+ pass CHAR(30) NOT NULL
+);
+
+ALTER TABLE users ADD CONSTRAINT PK_users PRIMARY KEY (email);
+
+CREATE TABLE games (
+ appID INT NOT NULL,
+ title CHAR(50),
+ genre CHAR(25)
+);
+
+ALTER TABLE games ADD CONSTRAINT PK_games PRIMARY KEY (appID);
